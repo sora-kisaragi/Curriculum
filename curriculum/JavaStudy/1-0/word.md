@@ -1,0 +1,129 @@
+- IT
+  - IT Information Technology 情報技術
+  - ICT Information & Communication Technology 情報通信技術
+  - IoT Internet of Things モノのインターネット 自宅で実践中
+- OS
+  - OS Operating System コンピュータのシステム全体を管理する大切なもの
+  - Windows マイクロソフトが開発した GUI ベースの OS
+  - macOS (Mac OS X) Apple が開発した OS Unix 系ソフトの互換性が高い
+  - UNIX 現代の OS のほとんどが参考にしている OS、元祖。
+  - Linux Unix 系からの派生 OS、過去は CUI 環境が多かったが、最近は GUI も増えた。
+- 言語・環境
+  - マークアップ／フロントエンド
+    - HTML マークアップ言語 文章構造を定義できる。 見出し 段落 画像
+    - CSS スタイルシート言語 文章のスタイルを指定できる。 太字 背景 ピクセル
+    - JavaScript スクリプト言語 web ページで複雑な機能を追加できる。
+    - jQuery JS のライブラリ ブラウザ間の仕様を意識せずに済む等
+    - Java SE Java API の一つ 標準の API イメージはライブラリ
+  - サーバーサイド
+    - .NET（C#, VB） アプリケーション自体や開発環境をさす
+    - Java
+      - Java SE Java API の一つ 標準
+      - Java EE（Jakarta EE） Java API の一つ SE に企業向けサーバー機能が追加されたもの
+    - Perl 言語のひとつ 他の言語のすぐれた部分を取り入れたことが特徴 例 オブジェクト指向プログラム
+    - PHP 言語のひとつ サーバー上で実行される
+    - Ruby 言語のひとつ 純国産プログラミング言語
+- サーバーソフト
+  - Apache Web サーバーソフト いつもこいつで手間取ります。
+  - nginx Web サーバーソフト エンジンエックス 処理性能、高い塀構成、メモリ使用量の小ささが売り
+  - IIS Web サーバーソフト Windows 向け
+- SQL
+  - SQL
+  - DB2
+  - MySQL
+  - Maria DB
+  - Oracle DB
+  - PostgreSQL
+  - SQLite
+  - SQL Server
+  - CRUD
+  - トランザクション
+  - コミット
+  - ロールバック
+  - 排他制御（排他ロック）
+  - 楽観ロック
+  - 悲観ロック
+  - 実行計画
+  - チューニング
+  - パフォーマンス
+  - スロークエリ
+  - クエリログ
+  - IDE（統合開発環境）
+  - Eclipse
+  - NetBeans
+  - SpringToolSuite
+  - DB ツール
+  - A5:SQL Mk-2
+  - pgAdmin
+  - DBeaver
+  - MySQL Workbench
+  - Sequel Pro
+  - TeamSQL
+- 肩書
+  - PM
+  - PL
+  - PG（PE）
+  - SE
+  - デザイナー
+  - エンジニア
+  - フロントエンド・エンジニア
+  - サーバーサイド・エンジニア
+  - バックエンド・エンジニア
+
+* UI（ユーザーインターフェース）
+  - UI
+  - CUI
+  - GUI
+* ファイル／ディレクトリ
+  - ファイル
+  - 拡張子
+  - ディレクトリ
+  - ルート・ディレクトリ
+  - カレント・ディレクトリ
+  - パス
+  - 絶対パス
+  - 相対パス
+* ネットワーク
+  - LAN
+  - WAN
+  - クライアント
+  - サーバー
+* 各種プロトコル
+  - HTTP
+  - FTP
+  - HTTPS
+  - SSL
+  - SSH
+  - ポート、ポート番号
+  - HTTP、FTP、SSH の各ポート番号
+  - ファイアウォール
+  - TCP
+* IP アドレス
+  - IP アドレス
+  - グローバル IP アドレス
+  - プライベート IP アドレス
+* ドメイン
+  - ドメイン
+  - DNS
+  - VPN
+  - ブリッジ
+  - プロキシサーバー
+* 電子メール
+  - SMTP
+  - POP
+  - IMAP
+* セッションとクッキー
+  - セッション
+  - クッキー
+  - キャッシュ
+* DB（データベース）について
+  - インデックス
+* テストについて
+  - フロー
+* チケット管理ツール
+  - タスク
+* バージョン管理
+  - Git
+  - SVN
+  - デグレ
+  - マージツール
