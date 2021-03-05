@@ -15,11 +15,15 @@ public class Check {
 			System.out.print(data[i] + " ");
 		}
 		System.out.println();
+
 		for (int i = 0; i < data.length - 1; i++) {
+			// 自身を除く配列の長さ分for文を回す
+			// 後ろから回すことによって大きい数字が配列数の大きい方へ格納されていくため小さい数字から順に並ぶ
 			for (int j = data.length - 1; j > i; j--) {
 				/*
 				 * 問3 以下、配列の添字を入れてソートを完成させなさい
 				 */
+				// ひとつ隣のデータが自身より大きければ値を入れ替える
 				if (data[j - 1] > data[j]) {
 					int box = data[j - 1];
 					data[j - 1] = data[j];
