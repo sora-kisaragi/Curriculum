@@ -52,6 +52,5 @@ public class Study
 		{
 			System.out.println(entry.getKey() + "=" + entry.getValue() + "円になります！");
 		}
-
 	}
 }
