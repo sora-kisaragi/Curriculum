@@ -1,0 +1,187 @@
+/*パソコン向け レイアウト*/
+
+body {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  height: 100px;
+  background-color: #141f40;
+}
+
+.left {
+  float: left;
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+.center {
+  float: left;
+}
+
+.center_upper {
+  width: 150px;
+  height: 50px;
+  background-color: #dbd400;
+}
+
+.center_middle {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.center_lowwer {
+  width: 250px;
+  height: 100px;
+  background-color: #8c2727;
+}
+
+.right {
+  float: right;
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+}
+
+.footer {
+  height: 100px;
+  background-color: #d98d30;
+}
+
+/*ウィンドウ幅が最大767pxまでの場合に適用(タブレット用)*/
+@media screen and (max-width: 767px) {
+  body {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 300px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .header {
+    height: 100px;
+    background-color: #141f40;
+  }
+
+  .left {
+    float: left;
+    width: 100px;
+    height: 250px;
+    background-color: #80bfa8;
+  }
+
+  .center {
+    float: left;
+  }
+
+  .center_upper {
+    width: 125px;
+    height: 50px;
+    background-color: #dbd400;
+  }
+
+  .center_middle {
+    width: 125px;
+    height: 100px;
+    background-color: #0093b7;
+  }
+
+  .center_lowwer {
+    width: 200px;
+    height: 100px;
+    background-color: #8c2727;
+  }
+
+  .right {
+    float: right;
+    width: 75px;
+    height: 150px;
+    background-color: #ff9e6b;
+  }
+
+  .footer {
+    height: 100px;
+    background-color: #d98d30;
+  }
+}
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+  body {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 150px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .header {
+    height: 100px;
+    background-color: #141f40;
+  }
+
+  .left {
+    float: none;
+    width: 150px;
+    height: 150px;
+    background-color: #80bfa8;
+  }
+
+  .center {
+    float: none;
+  }
+
+  .center_upper {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+  }
+
+  .center_middle {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+  }
+
+  .center_lowwer {
+    width: 150px;
+    height: 100px;
+    background-color: #8c2727;
+  }
+
+  .right {
+    float: none;
+    width: 150px;
+    height: 150px;
+    background-color: #ff9e6b;
+  }
+
+  .footer {
+    height: 100px;
+    background-color: #d98d30;
+  }
+}

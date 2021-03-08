@@ -1,0 +1,61 @@
+/*パソコン向け レイアウト*/
+
+body {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  height: 100px;
+  background-color: #141f40;
+}
+
+.left {
+  float: left;
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+.center {
+  float: left;
+}
+
+.center_upper {
+  width: 150px;
+  height: 50px;
+  background-color: #dbd400;
+}
+
+.center_middle {
+  width: 150px;
+  height: 100px;
+  background-color: #0093b7;
+}
+
+.center_lowwer {
+  width: 250px;
+  height: 100px;
+  background-color: #8c2727;
+}
+
+.right {
+  float: right;
+  width: 100px;
+  height: 150px;
+  background-color: #ff9e6b;
+}
+
+.footer {
+  height: 100px;
+  background-color: #d98d30;
+}
