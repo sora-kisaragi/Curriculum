@@ -1,0 +1,148 @@
+/*パソコン向け レイアウト*/
+
+body {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#wrapper {
+}
+
+.header {
+  height: 100px;
+  background-color: #141f40;
+}
+
+.contents {
+  /* height: 250px; */
+}
+
+.left {
+  float: left;
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+}
+
+.right {
+  float: right;
+  width: 250px;
+  height: 250px;
+  background-color: #8c2727;
+}
+
+.footer {
+  height: 100px;
+  background-color: #d98d30;
+}
+
+/*ウィンドウ幅が最大767pxまでの場合に適用(タブレット用)*/
+@media screen and (max-width: 767px) {
+  body {
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 250px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #wrapper {
+    margin: 0 auto;
+  }
+
+  .header {
+    height: 100px;
+    width: 250px;
+    background-color: #141f40;
+  }
+
+  .contents {
+    /* height: 250px; */
+  }
+
+  .left {
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+  }
+
+  .right {
+    float: right;
+    width: 100px;
+    height: 250px;
+    background-color: #8c2727;
+  }
+
+  .footer {
+    height: 100px;
+    width: 250px;
+    background-color: #d98d30;
+  }
+}
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+  body {
+    min-height: 80%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 250px;
+  }
+
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #wrapper {
+    margin: 0 auto;
+  }
+
+  .header {
+    height: 100px;
+    width: 150px;
+    background-color: #141f40;
+  }
+
+  .contents {
+    /* height: 250px; */
+  }
+
+  .left {
+    float: none;
+    height: 250px;
+    width: 150px;
+    background-color: #80bfa8;
+  }
+
+  .right {
+    float: none;
+    height: 250px;
+    width: 150px;
+    background-color: #8c2727;
+  }
+
+  .footer {
+    height: 150px;
+    width: 150px;
+    background-color: #d98d30;
+  }
+}
