@@ -108,4 +108,4 @@
 
 [不思議の国の SE 用語](https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854)
 
-![QRコード](D:\User\Pictures\QR_294595.png)
+![QRコード](https://github.com/sora-kisaragi/Curriculum/blob/Java/curriculum/JavaStudy/Picture/QR_Husigi.png)
