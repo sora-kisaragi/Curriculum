@@ -1,0 +1,26 @@
+body {
+  min-height: 100%;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  height: 100px;
+}
+
+.h_left {
+  float: left;
+  width: 150px;
+}
+.h_right {
+  float: left;
+  width: 200px;
+}
