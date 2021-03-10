@@ -19,8 +19,62 @@ body {
 .h_left {
   float: left;
   width: 150px;
+  height: 100px;
+  background-color: #ffff66;
 }
 .h_right {
   float: left;
   width: 200px;
+  height: 100px;
+  background-color: #666666;
+}
+
+.middle {
+  height: 150px;
+}
+
+.m_left {
+  float: left;
+  width: 150px;
+  height: 150px;
+  background-color: #ff3333;
+}
+
+.m_center {
+  float: left;
+  width: 100px;
+  height: 150px;
+  background-color: #3366ff;
+}
+
+.m_right {
+  float: left;
+  width: 100px;
+  height: 150px;
+  background-color: #669933;
+}
+
+.footer {
+  height: 100px;
+}
+
+.f_left {
+  float: left;
+  width: 150px;
+  height: 100px;
+  background-color: #ff9966;
+}
+
+.f_center {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: #ffffcc;
+}
+
+.f_right {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: #330066;
 }
