@@ -8,6 +8,7 @@
 </head>
 <body>
 
+	<%-- 指定がなかったため textをそのまま記述 --%>
 	<div class="footer clearfix">
 		<div class="t_text">hoge.Inc</div>
 	</div>
