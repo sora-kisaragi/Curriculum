@@ -71,6 +71,7 @@ public class ExException
                     // 問①は最下部にもあります。
                     // ルール: ここへ作成したメソッドを呼び出す
                     isNullPo();
+
                     break;
                 case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
                     // 問②: 「throw」を使用せずに「ArrayIndexOutOfBoundsException」を発生させる処理を記述しなさい。
@@ -90,7 +91,6 @@ public class ExException
             } catch (NullPointerException e)
             {
                 printException(e);
-                System.out.println(CONST_MSG_NULLPO);
             } catch (ArrayIndexOutOfBoundsException e)
             {
                 printException(e);
@@ -119,10 +119,7 @@ public class ExException
     // ここへ記述
     private static void isNullPo() throws NullPointerException
     {
-        String str = null;
-
-        System.out.println(str.length());
-
+        throw new NullPointerException(CONST_MSG_NULLPO);
     }
 
     /**
