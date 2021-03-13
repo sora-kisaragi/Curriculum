@@ -78,7 +78,7 @@ public class ExException
                     // Tips: ご自身で配列を準備してください（使用する配列の型、要素数は自由）
                     // ここへ記述
                     int[] array_num = { 1, 2 };
-                    int a = array_num[5];
+                    System.out.println(array_num[5]);
                     break;
                 case CONST_EXCEPTION_TRIGER_CAST:
                     String castedStrValue = (String) CONST_OBJ_FOR_CLASS_CAST;
@@ -105,7 +105,6 @@ public class ExException
                 System.out.println("リトライ回数 = " + retryCounter++);
             }
         } while (true);
-
         // 終了処理
         sc.close();
         System.out.println("お疲れ様でした！");
