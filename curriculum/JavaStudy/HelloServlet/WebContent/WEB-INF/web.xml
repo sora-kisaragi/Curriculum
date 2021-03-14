@@ -15,7 +15,7 @@
 
 	<servlet>
 		<servlet-name>helloServlet</servlet-name>
-		<servlet-class>helloPackage.HelloServlet</servlet-class>
+		<servlet-class>HelloServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
