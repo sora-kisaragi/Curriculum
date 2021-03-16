@@ -1,0 +1,25 @@
+改修対象
+
+EmployeeController.java
+
+EmployeeService.java
+
+index.jsp
+
+index.css
+
+index.html
+
+全部で５つのファイルに準備されている問題に回答をお願いいたします。
+
+要件①
+
+検索処理を実行したタイミングで以下を実行してください。
+
+社員情報テーブルの login_time を検索処理の実行時間でUPDATEする
+
+社員名、コメントに加え、ログインタイムとして login_time を表示する
+
+要件②
+
+パスワードの入力時、入力内容にマスクをかけてください。(課題③のエビデンス参照)
